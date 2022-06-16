@@ -1,0 +1,8 @@
+<svg id="front-desk" xmlns="http://www.w3.org/2000/svg" width="510" height="510" viewBox="0 0 510 510">
+  <path id="Path_804" data-name="Path 804" d="M0,240H510v45H0Z" fill="#ea3664"/>
+  <path id="Path_805" data-name="Path 805" d="M150,315H360V420H150Z" fill="#ea3664"/>
+  <path id="Path_806" data-name="Path 806" d="M390,450H120V315H30V510H480V315H390Z" fill="#ea3664"/>
+  <path id="Path_807" data-name="Path 807" d="M330,210h60V180h90V0H240V180h90Z" fill="#ea3664"/>
+  <path id="Path_808" data-name="Path 808" d="M210,180a89.639,89.639,0,0,0-22.98-60,89.861,89.861,0,0,1-134.04,0A89.639,89.639,0,0,0,30,180v30H210Z" fill="#ea3664"/>
+  <circle id="Ellipse_322" data-name="Ellipse 322" cx="60" cy="60" r="60" transform="translate(60)" fill="#ea3664"/>
+</svg>

@@ -1,0 +1,389 @@
+body{
+  direction: rtl;
+  text-align: right;
+}
+.main-title::before {
+  left: auto;
+  right: 0;
+}
+
+@media(max-width: 576px) {
+  .slick-prev, .slick-next {
+    right: auto;
+    left: 46px;
+  }
+  .slick-prev {
+    right: auto;
+    left: 10px;
+  }
+}
+/* Start Nav Code*/
+@media(min-width: 1200px) {
+  .collapse .navbar-nav .nav-item .nav-link {
+    margin-right: unset;
+    margin-left: 20px;
+  }
+}
+.navbar-nav>.nav-item .second-menu{
+  left: auto;
+  right: 0;
+}
+.lang-list-item .lang-inline-container .lang-img-cont {
+  margin-right: unset;
+  margin-left: 16px;
+}
+.lang-list-item .lang-inline-container .lang-name {
+  text-transform: capitalize;
+  margin-right: unset;
+  margin-left: 16px;
+}
+@media (min-width: 992px) {
+  .notification-link .not-num {
+      left: auto;
+      right: -5px;
+  }
+}
+/*start header */
+.header .partitions .nav-pills .nav-link{
+  border-right: none;
+  border-left: 1px solid #8b8b8b;
+}
+.xp-search .traveo-dist input{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: none;
+  border-left: 1px solid #4d4d4d;
+  padding-left: unset;
+  padding-right: 60px;
+}
+.xp-search .traveo-dist .main-search-icon {
+  left: auto;
+  right: 30px;
+}
+.xp-search .traveo-dist .dist-before {
+  left: auto;
+  right: 60px;
+}
+.dist-autocomplete-list .autocomplete-icon {
+  
+  margin-left: 10px;
+}
+.xp-datepicker .traveo-dist input{
+  padding-left: unset;
+  padding-right: 100px;
+  border-right: none;
+  border-left: 1px solid #4d4d4d;
+}
+.xp-datepicker .traveo-dist .main-search-icon {
+  left: auto;
+  right: 30px;
+}
+.xp-datepicker .traveo-dist .dist-before {
+  right: 100px;
+}
+.xp-guests .traveo-dist .guest-number-input{
+  padding-left: unset;
+  padding-right: 80px;
+}
+.xp-guests .traveo-dist .main-search-icon {
+  left: auto;
+  right: 30px;
+}
+.xp-guests .traveo-dist .dist-before {
+  left: auto;
+  right: 80px;
+}
+/* .header .xp-guests .traveo-dist*/
+.dist-guests-list .number-spinner input {
+  float: right;
+}
+.xp-button-search .traveo-dist {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.room-delete {
+  right: auto;
+  left: 0;
+}
+.children-group select {
+  border: 1px solid #5ea7f5;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+.dist-guests-list .add-new-room {
+  display: block;
+  text-align: center;
+  width: 26px;
+  height: 26px;
+  background: #2152bb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+/* end header */
+/* property owl carousel */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+ display: none;
+}
+ .owl-theme .owl-dots{
+  display: none;
+}
+/* start properety section*/
+.property-section{
+  padding: 80px 0;
+}
+.property-section .owl-carousel {
+  direction: ltr;
+  text-align: right;
+}
+.property-section .owl-carousel .item {
+  margin-bottom: 30px;
+  position: relative;
+}
+.property-section .item .card { 
+  border-radius: 8px; 
+  -webkit-border-radius: 8px; 
+  -moz-border-radius: 8px; 
+  -ms-border-radius: 8px; 
+  -o-border-radius: 8px;
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+}
+.property-section .item .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  content: ' ';
+  background-color: rgba(0,0,0,0.4);
+  opacity: 0.5;
+}
+.property-section .item .card .card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.property-section .item .card .card-img-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.property-section .item .card .card-body {
+  position: absolute;
+  bottom: 2%;
+  right: 16px;
+  z-index: 5;
+  color: #fff;
+  text-transform: capitalize;
+}
+.property-section .item .card .card-title {
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+.property-section .item .card:hover .card-img-top{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.property-section .item .card:hover .card-overlay {
+  opacity: 1;
+}
+/* start travel offer */
+.travel-offer .offer {
+  padding: 20px;
+}
+@media(min-width: 576px){
+  .travel-offer .offer {
+    padding: 40px 80px 40px 0;
+  }
+}
+/* start stays */
+.stays-section .item .card .offer {
+  left: auto;
+  right: 30px;
+}
+/* start top destinations */
+
+/* destinations-we-love */
+
+/* start subscribe */
+@media(min-width: 576px){
+  .subscribe .offer {
+    padding: 60px 80px 60px 0;
+  }
+}
+.subscribe .offer .form-check-label {
+  margin-left: unset;
+  margin-right: 6px;
+}
+/* start footer*/
+
+/* start copyrights*/
+
+/*start register page */
+
+/* start hotels page */
+.breadcrumb-item {
+  padding-right: unset;
+  padding-left: 10px;
+}
+.hotels-autocomplete-list .autocomplete-icon {
+  margin-right: unset;
+  margin-left: 10px;
+}
+/*filter box outer */
+.bui-checkbox .bui-checkbox-input {
+  /* opacity: 0; */
+  left: auto;
+  right: 0;
+}
+.bui-checkbox-label .filter-count {
+  right: auto;
+  left: 5px;
+}
+/* filter suggestions */
+
+/* hotels content */
+.country-heading .open-map {
+  right: auto;
+  left: 0;
+}
+#mapModal .close{
+  right: auto;
+  left: -20px;
+}
+.map-section-header .search-map-input {
+  padding-left: unset;
+  padding-right: 30px;
+}
+.hotellist-inner .hotellist-wrap .item-photo .add-fav {
+  right: auto;
+  left: 16px;
+}
+.price-display-wrapper .see-rooms .fa {
+  float: left;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+/* start hotel details page */
+.hotel-header .hotel-save, .hotel-header .hotel-share{
+  margin-right: 16px;
+}
+.recommended-room .recommended-title {
+  padding: 8px 8px 8px 16px;
+}
+
+/* availability-section*/
+.availability-section .hp-section-header .price-match {
+  left: auto;
+  right: 10px;
+}
+/* rooms table */
+.hprt-table-cell {
+  border: 1px solid rgb(137 168 234);
+  border-right: 0;
+}
+/* guests-reviews */
+.hotel-facili .facili-top img {
+  margin-right: unset;
+  margin-left: 6px;
+}
+.hotel-facili .facili-body img {
+  margin-right: unset;
+  margin-left: 6px;
+}
+.toggle-accordion {
+  right: auto;
+  left: 0;
+}
+
+/* start blogs page */
+
+/* start blog article */
+
+.blog-article-section .side .form-control {
+  border: 1px solid #2152bb;
+  border-left: none;
+}
+.blog-article-section .side .search {
+  margin-left: unset;
+  margin-right: -3px;
+}
+.blog-article-section .side .form-control:focus{
+  border: 1.5px solid #f02156;
+  border-left: none;
+}
+/* start check availability page */
+.sidebar-wrapper .sidebar-header .collapse-sidebar {
+  right: auto;
+  left: 10px;
+}
+.sidebar-header-title {
+  padding: 8px 16px 8px 8px;
+}
+.bui-date-range-item {
+  padding-right: unset;
+  padding-left: 16px;
+}
+/*form content */
+  .form-box-title {
+    padding: 8px 16px 8px 8px;
+  }
+  .check-yes{
+    margin-right: unset;
+    margin-left: 20px;
+  }
+
+/* start all hotels page */
+.bui-header-section .bui-exit-tabs {
+  right: auto;
+  left: 0;
+}
+/* start appartments page */
+
+/*start most-booked-appartments*/

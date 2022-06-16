@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="448" viewBox="0 0 440 448">
+  <g id="fast-food" transform="translate(-0.5)">
+    <path id="Path_864" data-name="Path 864" d="M24.5,384H174.1l-72-48H24.5a24,24,0,0,0,0,48Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_865" data-name="Path 865" d="M263.9,336H130.925L200.3,382.258Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_866" data-name="Path 866" d="M104.5,320H304.2a104.135,104.135,0,0,0-103.7-96h-96A104.135,104.135,0,0,0,.805,320Zm112-48h16v16h-16Zm-24-32h16v16h-16Zm-24,32h16v16h-16Zm-24-32h16v16h-16Zm-24,32h16v16h-16Zm-24-32h16v16h-16Zm-24,32h16v16h-16Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_867" data-name="Path 867" d="M24.5,400H.5v24a24,24,0,0,0,24,24h256a24,24,0,0,0,24-24V400Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_868" data-name="Path 868" d="M246.348,217.184a121.043,121.043,0,0,1,22.4,12.207l-1.91-28.863,16-1.055,2.922,44.137A119.579,119.579,0,0,1,320.5,328a8,8,0,0,1-8,8h-.207a39.2,39.2,0,0,1,0,48h.207a8,8,0,0,1,8,8v32a39.6,39.6,0,0,1-8.207,24h80.8l22.8-304H241.125Zm34.152-49.75,1.145,16-15.961,1.133-1.152-16Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_869" data-name="Path 869" d="M344.5,104h-128v24h224V104Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_870" data-name="Path 870" d="M320.5,0h16V88h-16Zm0,0" fill="#8b8b8b"/>
+    <path id="Path_871" data-name="Path 871" d="M288.9,337.6,225.1,384h55.4a23.95,23.95,0,0,0,8.4-46.4Zm0,0" fill="#8b8b8b"/>
+  </g>
+</svg>
