@@ -2,6 +2,24 @@
 import SinglePage from './components/SinglePage/SinglePage.vue';
 document.title = 'Travveo';
 </script>
+<style>
+@import './assets/css/base.css';
+@import './assets/css/slick.css';
+@import './assets/css/slick-theme.css';
+@import './assets/css/style.css';
+@import './assets/css/bootstrap.min.css';
+@import './assets/css/hover.css';
+@import './assets/css/jquery.fancybox.min.css';
+@import './assets/css/simple-lightbox.min.css';
+@import './assets/css/font-awesome.min.css';
+@import './assets/css/camroll_slider.min.css';
+@import './assets/css/loader.css';
+@import './assets/css/owl.carousel.min.css';
+@import './assets/css/owl.theme.default.min.css';
+@import './assets/css/daterangepicker.css';
+@import './assets/css/fontawesome.min.css';
+@import './assets/css/font-awesome.min.css';
+</style>
 <script>
 // src\assets\js\jquery-3.2.1.min.js
 export default {
@@ -139,6 +157,13 @@ export default {
     );
     plugin.async = true;
     document.head.appendChild(plugin);
+
+    plugin.setAttribute(
+      "src",
+      "https://use.fontawesome.com/d10920a460.js"
+    );
+    plugin.async = true;
+    document.head.appendChild(plugin);
   }
 };
 </script>
@@ -146,20 +171,3 @@ export default {
 <template>
   <SinglePage />
 </template>
-
-<style>
-@import './assets/css/base.css';
-@import './assets/css/slick.css';
-@import './assets/css/slick-theme.css';
-@import './assets/css/style.css';
-@import './assets/css/bootstrap.min.css';
-@import './assets/css/hover.css';
-@import './assets/css/jquery.fancybox.min.css';
-@import './assets/css/simple-lightbox.min.css';
-@import './assets/css/font-awesome.min.css';
-@import './assets/css/camroll_slider.min.css';
-@import './assets/css/loader.css';
-@import './assets/css/owl.carousel.min.css';
-@import './assets/css/owl.theme.default.min.css';
-@import './assets/css/daterangepicker.css';
-</style>

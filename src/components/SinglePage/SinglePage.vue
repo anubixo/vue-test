@@ -4,9 +4,13 @@ import SearchBox from './SearchBox.vue'
 import Breadcrump from './Breadcrump.vue'
 import PageNavigator from './PageNavigator.vue';
 import Footer from '../Layout/Footer.vue';
+import HotelTitle from './HotelTitle.vue';
+import GalarySlider from './GalarySlider.vue';
+import Recommendation from './Recommendation.vue';
 
 </script>
 <template>
+  <!-- Navigation Bar -->
   <NavBar />
   <!--start hotels-->
   <div class="hotels-section">
@@ -14,129 +18,32 @@ import Footer from '../Layout/Footer.vue';
       <div class="row">
         <div class="col-12">
           <div class="subheader-wrap">
+            <!-- Breadcrump -->
             <Breadcrump />
           </div>
         </div>
       </div>
       <div class="row">
+        <!-- Search Box -->
         <SearchBox />
         <div class="col-12 col-md-7 col-lg-8 col-xl-9">
           <!--page content-->
           <div class="right-col-wrapper">
+            <!-- Page Navigator Component -->
             <PageNavigator />
             <div class="hotellist-inner" id="hotellist-inner">
               <div class="row">
                 <div class="col-12">
                   <div class="hotellist-wrap my-3">
-                    <div class="hotel-header d-flex justify-content-between">
-                      <h5 class="hotels-title">Steigenberger Cecil Hotel Alexandria
-                        <span class="hotel-rating">
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                        </span>
-                        <span class="bk-icon">
-                          <i class="fa fa-thumbs-o-up"></i>
-                        </span>
-                      </h5>
-                      <form action="">
-                        <button type="button" class="hotel-save" data-title="save">
-                          <i class="fa fa-heart-o"></i>
-                        </button>
-                        <button type="button" class="hotel-share" data-title="share">
-                          <i class="fa fa-share-alt"></i>
-                        </button>
-                        <button type="button" class="btn btn-primary hotel-reserve">reserve</button>
-                      </form>
-                    </div>
-                    <div class="hotel-location mb-2">
-                      <i class="fa fa-map-marker"></i>
-                      <span>Alexandria, Egypt</span>
-                    </div>
-                    <div class="hotel-gallery-imgs d-flex">
-                      <div class="items">
-                        <a href="img/h1.webp" class="fancybox" data-fancybox="gallery">
-                          <img src="../../assets/img/h1.webp" alt="">
-                          <div class="overlay"></div>
-                        </a>
-                      </div>
-                      <div class="items">
-                        <a href="img/h6.webp" class="fancybox" data-fancybox="gallery">
-                          <img src="../../assets/img/h2.webp" alt="">
-                          <div class="overlay"></div>
-                        </a>
-                      </div>
-                      <div class="items">
-                        <a href="img/h3.webp" class="fancybox" data-fancybox="gallery">
-                          <img src="../../assets/img/h3.webp" alt="">
-                          <div class="overlay"></div>
-                        </a>
-                      </div>
-                      <div class="items">
-                        <a href="img/h4.webp" class="fancybox" data-fancybox="gallery">
-                          <img src="../../assets/img/h4.webp" alt="">
-                          <div class="overlay"></div>
-                        </a>
-                      </div>
-                      <div class="items">
-                        <a href="img/h5.webp" class="fancybox" data-fancybox="gallery">
-                          <img src="../../assets/img/h5.webp" alt="">
-                          <div class="overlay"></div>
-                        </a>
-                      </div>
-                      <div class="items">
-                        <a href="img/h2.webp" class="fancybox" data-fancybox="gallery">
-                          <img src="../../assets/img/h6.webp" alt="">
-                          <div class="overlay"></div>
-                        </a>
-                      </div>
-                    </div>
+                    <!-- Hotel Title Component -->
+                    <HotelTitle />
+                    <!-- Galary Slider -->
+                    <GalarySlider />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="recommended-room" id="recommended-room">
-              <h3 class="recommended-title">Recommended for 2 adults</h3>
-              <div class="row p-3">
-                <div class="col-12 col-sm-6">
-                  <div class="room-features">
-                    <a href="#" class="double-room">Honeymoon Double Room</a>
-                    <div class="bed-info mb-2">
-                      <span>Price for : </span>
-                      <span>
-                        <i class="fa fa-male"></i>
-                        <i class="fa fa-female"></i>
-                      </span>
-                    </div>
-                    <b>Each unit has :</b>
-                    <small class="d-block mb-2">one queen bed : <img src="../../assets/img/bed.svg" alt="" width="20px"
-                        height="20px"></small>
-                    <div class="cancel-cost">
-                      Costs 1st night to cancel <i class="fa fa-question-circle jq-tooltip"
-                        data-title="Cancellation : Youll be charged the cost of the first night if you cancel your booking Prepayment No prepayment is needed"
-                        data-placement="bottom"></i>
-                    </div>
-                    <div class="breakfast-included mb-2">
-                      <i class="fa fa-coffee"></i> breakfast included
-                    </div>
-                    <div class="msg-gold"> Only 5 rooms left on our site</div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6">
-                  <div class="hotel-total-price">
-                    <div class="price-display">
-                      <div class="price-display-label mb-1">3 nights, 2 adults</div>
-                      <h4 class="price-display-value">EGP 11,999</h4>
-                      <div class="price-texas mb-3">Additional charges may apply</div>
-                    </div>
-                    <a href="#" class="btn btn-primary reserve-selection my-2">Reserve your selections</a>
-                    <small class="d-block">Don't worry – clicking this button won't charge you anything!</small>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <!-- <Recommendation /> -->
             <div class="availability-section mb-4">
               <form action="" id="hotelpage_availform">
                 <div class="hp-section-header">
