@@ -1,3 +1,4 @@
+
 <template>
   <div class="sort-bar">
     <ul class="nav nav-tabs nav-fill">

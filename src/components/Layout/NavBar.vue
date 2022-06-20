@@ -1,6 +1,7 @@
 <script>
 import Currencies from "./Partials/Currencies.vue";
 import Languages from "./Partials/Languages.vue";
+import Logo from "./Partials/Logo.vue";
 export default {
   data() {
     return {
@@ -16,6 +17,14 @@ export default {
         {
           name: "Egyptian Pound",
           value: "EGP",
+        },
+        {
+          name: "Saudi Riyal",
+          value: "SAR",
+        },
+        {
+          name: "Pound Sterling",
+          value: "GBP",
         },
       ],
       languages: [
@@ -41,16 +50,16 @@ export default {
         },
         
       ],
-      flag: String,
+      flag: "./img/usa.png",
     }
   },
-  components: { Currencies, Languages }
+  components: { Currencies, Languages, Logo }
 }
 </script>
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="home.html"><img src="../../../img/travveo-logo.svg" alt=""></a>
+      <Logo />
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -60,10 +69,10 @@ export default {
           <Currencies :currencies="currencies" />
           <li class="nav-item">
             <a class="nav-link" href="profile.html">
-              <img src="../../../img/profile.png" alt="" width="32px" height="32px">
+              <img src="../../../img/profile.png" alt="" width="32" height="32">
             </a>
           </li>
-          <Languages :languages="languages" flag="./img/usa.png"/>
+          <Languages :languages="languages" :flag="flag"/>
           <li class="nav-item ">
             <a class="nav-link sign-up text-center mt-2" href="list-property.html">list your property</a>
           </li>

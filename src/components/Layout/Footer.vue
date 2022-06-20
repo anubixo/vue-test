@@ -106,4 +106,22 @@
     </div>
 
   </div>
+  <div class="copyrights">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <p>© 2021 Travveo. All Rights Reserved.</p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <p>privacy policy</p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <p>terms of services</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="go-top" data-toggle="tooltip" title="" data-placement="left" data-original-title="go to top">
+    <img src="../../assets/img/up-arrow.svg" alt="" width="20px" height="26px">
+  </a>
 </template>
